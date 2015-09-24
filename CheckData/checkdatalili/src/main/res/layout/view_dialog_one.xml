@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg_while"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/llDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:id="@+id/rrNewTitle"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:background="@drawable/dialog_title_red">
+
+            <TextView
+                android:id="@+id/txtNewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/dialog_news"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dialog_title_size"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+
+            android:id="@+id/llText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rrNewTitle"
+            android:layout_alignRight="@+id/rrNewTitle"
+            android:layout_alignLeft="@+id/rrNewTitle"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/txtNewContext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:lineSpacingExtra="4dp"
+                android:lineSpacingMultiplier="1.2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="@dimen/view_object_padding_Left"
+                android:layout_marginRight="@dimen/view_object_padding_Left"
+                android:text="@string/dialog_news_context"
+                android:textColor="@color/dialog_context_text"
+                android:textSize="@dimen/dialog_text_size"/>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:layout_below="@+id/llText"
+            android:layout_marginLeft="@dimen/view_object_padding_Left"
+            android:layout_marginRight="@dimen/view_object_padding_Left"
+            android:layout_marginTop="30dp"
+            android:layout_alignRight="@+id/rrNewTitle"
+            android:layout_alignLeft="@+id/rrNewTitle"
+            android:background="@drawable/view_rec"
+            android:text="@string/register_confirm"
+            android:textColor="@color/house_houses_list_tag_color"
+            android:textSize="13sp" />
+        <TextView
+            android:layout_below="@+id/btnContinue"
+            android:layout_marginTop="20dp"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+           />
+    </RelativeLayout>
+</LinearLayout>
+

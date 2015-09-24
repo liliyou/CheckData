@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CheckDataLili</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="check_warm_empty">不能為空</string>
+    <string name="check_warm_length">手機號碼長度不正確，請重新輸入</string>
+    <string name="check_warm_format">手機格式不正確，請重新輸入</string>
+
+     <string name="dialog_news_context">活動內容上線活動內容上線活動內容上線活動內容上線活動內容上線活動內容上線活動內容上線活動內容上線
+    活動內容上線活動內容上線活動內容上線活動內容上線活動內容上線活動內容上線活動內容上線</string>
+
+    <string name="register_confirm">確認</string>
+    <string name="dialog_news">慶祝上線活動</string>
+    <string name="dialog_reminder">提醒</string>
+    <string name="check_email">Email 錯誤</string>
+    <string name="check_mobile">手機號碼</string>
+    <string name="register_dialog_fail_passworld">手機號碼不正確，請重新輸入</string>
+    <string name="register_base_remind">密碼請輸入 8~16 位字母、數字組合</string>
+    <string name="dialog_reminder_social_num_wrong">"身分證號錯誤"</string>
+</resources>

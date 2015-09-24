@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="dialog_context_text">#505050</color>
+    <color name="house_houses_list_tag_color">#EF414D</color>
+    <color name="white">#ffffff</color>
+
+
+</resources>
